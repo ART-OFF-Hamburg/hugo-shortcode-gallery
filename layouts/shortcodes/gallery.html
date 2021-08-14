@@ -139,7 +139,7 @@ Ordinal: {{ .Ordinal}}
 						{{ end }}
 
 						{{ if $showExif }}
-							data-description="{{ .Model }} + {{ .LensModel }}<br/>{{ .FocalLength }}mm f/{{ .FNumber }} {{ .ExposureTime }}sec ISO {{ .ISOSpeedRatings }}"
+							data-description="{{ .Artist }}</br>©{{ .Copyright }}"
 						{{ end }}
 
 						{{ if not (eq $filterOptions "[]")  }}
